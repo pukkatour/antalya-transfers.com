@@ -1,0 +1,4 @@
+<IfModule rewrite_module>
+RewriteEngine On
+RewriteRule ^(.*)/(.*)/ detail.php?airport=$1&resort=$2 [L]
+</IfModule>
